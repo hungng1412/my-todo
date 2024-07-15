@@ -1,12 +1,14 @@
 
 <script setup>
-import NestedItem from './components/NestedItem.vue';
-import NestedMenu from './components/NestedMenu.vue';
+// import NestedItem from './components/NestedItem.vue';
+// import NestedMenu from './components/NestedMenu.vue';
+import Diutube from './Diutup/Diutube.vue';
 </script>
 
 <template>
-  <nested-item></nested-item>
-  <nested-menu></nested-menu>
+  <!-- <nested-item></nested-item>
+  <nested-menu></nested-menu> -->
+  <diutube></diutube>
 </template>
 
 <style scoped>
