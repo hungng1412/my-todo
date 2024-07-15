@@ -2,13 +2,21 @@
 <script setup>
 // import NestedItem from './components/NestedItem.vue';
 // import NestedMenu from './components/NestedMenu.vue';
-import Diutube from './Diutup/Diutube.vue';
+import Calculator from './MiniTask/Calculator.vue';
+import CRUD from './MiniTask/CRUD.vue';
+import FlightBooker from './MiniTask/FlightBooker.vue';
+import TempConvert from './MiniTask/TempConvert.vue';
+import Timer from './MiniTask/Timer.vue';
 </script>
 
 <template>
   <!-- <nested-item></nested-item>
   <nested-menu></nested-menu> -->
-  <diutube></diutube>
+<calculator> </calculator>
+<CRUD></CRUD>
+<flight-booker></flight-booker>
+<temp-convert></temp-convert>
+<timer></timer>
 </template>
 
 <style scoped>
